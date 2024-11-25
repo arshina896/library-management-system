@@ -42,12 +42,86 @@
                         <a href="./cart.html" class="bi bi-cart text-white"></a>
                     </li>
                     <li class="nav-item display-6">
-                        <a href="./cart.html" class="bi bi-person-circle  text-white"></a>
+                        <a href="#mycanvas" data-bs-toggle="offcanvas" data-bs-target="#mycanvas"
+                            class="bi bi-person-circle  text-white"></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start  bg-black" data-bs-scroll="true" data-bs-backdrop="static" id="mycanvas">
+        <div class="offcanvas-header">
+            <h2 class="text-light">Profile</h2>
+            <button class="btn-close   btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="container">
+                <div class="text-center">
+                    <a href="#mycanvas" data-bs-toggle="offcanvas" data-bs-target="#mycanvas"
+                        class="bi bi-person-circle display-1 text-light"></a>
+                    <h4>Arshina K P </h4>
+                    <a href="" class="btn btn-light offcanvas-container border-0">edit
+                        <i class=" bi bi-pencil-fill "></i>
+                    </a>
+                </div>
+                <div class="container mt-4 pt-4">
+                    <div class="row">
+                        <div class="col-6 mb-4">
+                            <a href="./order.html">
+                                <div class="container offcanvas-container  border-0 p-3 text-center bg-secondary ">order</div>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="">
+                                <div class="container border-0 p-3 text-center offcanvas-container bg-secondary">Like</div>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="">
+                                <div class="container border-0  p-3 text-center offcanvas-container bg-secondary">Help center</div>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="">
+                                <div class="container border-0  p-3 text-center offcanvas-container bg-secondary">Coupons</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- accordion -->
+                <div class="container mt-4">
+
+                    <div class="accordion  " id="accordi">
+                        <div class="accordion-item border-0 ">
+                            <div class="accordion-header  ">
+                                <button class="accordion-button bg-secondary" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion1">Payment & currencies</button>
+                            </div>
+                            <div class="accordion-collapse collapse " id="accordion1" data-bs-parent="#accordi">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur,
+                                        adipisicing elit. Non, maxime accusantium!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <div class="accordion-header ">
+                                <button class="accordion-button bg-secondary" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion2">Settings</button>
+                            </div>
+                            <div class="accordion-collapse collapse " id="accordion2" data-bs-parent="#accordi">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur,
+                                        adipisicing elit. Non, maxime accusantium!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- main -->
     <section class="text-light w-100 cart-img ">
         <div id="" class="container ">
@@ -111,12 +185,10 @@
                                     </button>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
                     <div class="text-start mb-4">
-                        <a href="#" class="btn btn-outline-info">
+                        <a href="#" class="btn btn-info mt-3">
                             Continue Shopping <i class="bi bi-arrow-right me-2"></i>
                         </a>
                     </div>
@@ -142,7 +214,7 @@
                                 <strong>Total</strong>
                                 <strong>$229.97</strong>
                             </div>
-                            <button class="btn btn-primary w-100">Proceed to Checkout</button>
+                            <button class="btn btn-primary w-100 ">Proceed to Checkout</button>
                         </div>
 
                     </div>

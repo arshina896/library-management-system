@@ -120,4 +120,29 @@ transition: 1s
     bottom: 50px;
     left: 40%;
 }
-/* cart */
+/* offcanvas */
+.offcanvas-container{
+    background-color: #212121;
+     color: rgb(214, 170, 89);
+}
+
+
+
+/* author demo */
+.author{
+    width: 100%;
+}
+.author img {
+    width: 90%;
+    height: 200px;
+    border-radius: 50%;
+}
+.author:hover {
+    background-color: #0e0e0f;
+color: white;
+transform: scale(1.1);
+transform: 10s;
+}
+.author:hover img{
+    border-radius: 0%;
+}

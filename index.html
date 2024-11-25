@@ -34,19 +34,97 @@
                     <a href="./pages/category.html" class="nav-link text-white "> Category</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link text-white">Author</a>
+                    <a href="./pages/authors.html" class="nav-link text-white">Author</a>
                 </li>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item display-6">
                         <a href="./pages/cart.html" class="bi bi-cart text-white"></a>
                     </li>
                     <li class="nav-item display-6">
-                        <a href="./pages/orde.html" class="bi bi-person-circle  text-white"></a>
+                        <a href="#mycanvas" data-bs-toggle="offcanvas" data-bs-target="#mycanvas"
+                            class="bi bi-person-circle  text-white"></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start  bg-black" data-bs-scroll="true" data-bs-backdrop="static" id="mycanvas">
+        <div class="offcanvas-header">
+            <h2 class="text-light">Profile</h2>
+            <button class="btn-close   btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="container">
+                <div class="text-center">
+                    <a href="#mycanvas" data-bs-toggle="offcanvas" data-bs-target="#mycanvas"
+                        class="bi bi-person-circle display-1 text-light"></a>
+                    <h4>Arshina K P </h4>
+                    <a href="" class="btn btn-light offcanvas-container border-0">edit
+                        <i class=" bi bi-pencil-fill "></i>
+                    </a>
+                </div>
+                <div class="container mt-4 pt-4">
+                    <div class="row">
+                        <div class="col-6 mb-4">
+                            <a href="./pages/order.html">
+                                <div class="container offcanvas-container  border-0 p-3 text-center bg-secondary ">order
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="">
+                                <div class="container border-0 p-3 text-center offcanvas-container bg-secondary">Like
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="">
+                                <div class="container border-0  p-3 text-center offcanvas-container bg-secondary">Help
+                                    center</div>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="">
+                                <div class="container border-0  p-3 text-center offcanvas-container bg-secondary">
+                                    Coupons</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- accordion -->
+                <div class="container mt-4">
+
+                    <div class="accordion  " id="accordi">
+                        <div class="accordion-item border-0 ">
+                            <div class="accordion-header  ">
+                                <button class="accordion-button bg-secondary" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion1">Payment & currencies</button>
+                            </div>
+                            <div class="accordion-collapse collapse " id="accordion1" data-bs-parent="#accordi">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur,
+                                        adipisicing elit. Non, maxime accusantium!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <div class="accordion-header ">
+                                <button class="accordion-button bg-secondary" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion2">Settings</button>
+                            </div>
+                            <div class="accordion-collapse collapse " id="accordion2" data-bs-parent="#accordi">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur,
+                                        adipisicing elit. Non, maxime accusantium!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- main -->
     <section class="text-light w-100 sm-vh-100  home-img">
         <div id="home" class="w-100 vh-100">
@@ -109,7 +187,7 @@
                             <h4 class=" font-weight-bold">Yail wrist watch</h4>
                             <h5>Arshina</h5>
                             <p class="card-text">$299</p>
-                            <a href="#" class="btn  details px-auto">view details</a><br />
+                            <a href="./pages/product.html" class="btn  details px-auto">view details</a><br />
                             <a href="#" class="btn cart px-auto">ADD TO CART</a>
                         </div>
                     </div>
@@ -122,7 +200,7 @@
                             <h4 class=" font-weight-bold">Yail wrist watch</h4>
                             <h5>Arshina</h5>
                             <p class="card-text">$299</p>
-                            <a href="#" class="btn  details px-auto">view details</a><br />
+                            <a href="./pages/product.html" class="btn  details px-auto">view details</a><br />
                             <a href="#" class="btn cart px-auto">ADD TO CART</a>
                         </div>
                     </div>
@@ -135,7 +213,7 @@
                             <h4 class=" font-weight-bold">Yail wrist watch</h4>
                             <h5>Arshina</h5>
                             <p class="card-text">$299</p>
-                            <a href="#" class="btn  details px-auto">view details</a><br />
+                            <a href="./pages/product.html" class="btn  details px-auto">view details</a><br />
                             <a href="#" class="btn cart px-auto">ADD TO CART</a>
                         </div>
                     </div>
@@ -147,7 +225,7 @@
                             <h4 class=" font-weight-bold">Yail wrist watch</h4>
                             <h5>Arshina</h5>
                             <p class="card-text">$299</p>
-                            <a href="#" class="btn  details px-auto">view details</a><br />
+                            <a href="./pages/product.html" class="btn  details px-auto">view details</a><br />
                             <a href="#" class="btn cart px-auto">ADD TO CART</a>
                         </div>
                     </div>
@@ -168,7 +246,7 @@
                             <h4 class=" font-weight-bold">Yail wrist watch</h4>
                             <h5>Arshina</h5>
                             <p class="card-text">$299</p>
-                            <a href="#" class="btn  details px-auto">view details</a><br />
+                            <a href="./pages/product.html" class="btn  details px-auto">view details</a><br />
 
                             <a href="#" class="btn cart px-auto">ADD TO CART</a>
                         </div>
@@ -181,7 +259,7 @@
                             <h4 class=" font-weight-bold">Yail wrist watch</h4>
                             <h5>Arshina</h5>
                             <p class="card-text">$299</p>
-                            <a href="#" class="btn  details px-auto">view details</a><br />
+                            <a href="./pages/product.html" class="btn  details px-auto">view details</a><br />
                             <a href="#" class="btn cart px-auto">ADD TO CART</a>
                         </div>
                     </div>
@@ -193,19 +271,19 @@
                             <h4 class=" font-weight-bold">Yail wrist watch</h4>
                             <h5>Arshina</h5>
                             <p class="card-text">$299</p>
-                            <a href="#" class="btn  details px-auto">view details</a><br />
+                            <a href="./pages/product.html" class="btn  details px-auto">view details</a><br />
                             <a href="#" class="btn cart px-auto">ADD TO CART</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-">
                     <div class="card home-card shadow mt-3 w-100">
                         <img class="mx-auto  mt-5" src="./assets/images/img-4.jpg" width="70%" height="auto" />
                         <div class="s card-body text-center pt-4 rounded-top">
                             <h4 class=" font-weight-bold">Yail wrist watch</h4>
                             <h5>Arshina</h5>
                             <p class="card-text">$299</p>
-                            <a href="#" class="btn  details px-auto">view details</a><br />
+                            <a href="./pages/product.html" class="btn  details px-auto">view details</a><br />
                             <a href="#" class="btn cart px-auto">ADD TO CART</a>
                         </div>
                     </div>
@@ -213,6 +291,69 @@
             </div>
         </div>
     </section>
+
+    <!-- author -->
+    <section>
+        <div class="container mx-auto mt-5 ">
+            <div class="container">
+                <h4 class="text-center display-5 fs-1 mb-5">Favroite Authors</h4>
+                <div class="text-end"> <a href="#" class="mx-auto text-end">View All ></a>
+                </div>
+                <img src="./assets/images/2-removebg-preview.png" class="img-s" width="20%" alt="">
+                <div class="row row-cols-lg-6">
+                    <div class="col-6">
+                        <div class="author ">
+                            <img src="./assets/images/a1.jpg" class="" alt="Ashlee Vance">
+                            <h2>Ashlee Vance</h2>
+                            <p>2 Published Books</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="author ">
+                            <img src="./assets/images/a2.jpg" class="" alt="Ashlee Vance">
+                            <h2>Ashlee Vance</h2>
+                            <p>2 Published Books</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="author ">
+                            <img src="./assets/images/a3.jpg" class="" alt="Ashlee Vance">
+                            <h2>Ashlee Vance</h2>
+                            <p>2 Published Books</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-6">
+                        <div class="author ">
+                            <img src="./assets/images/a8.jpg" class="" alt="Ashlee Vance">
+                            <h2>Ashlee Vance</h2>
+                            <p>2 Published Books</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="author ">
+                            <img src="./assets/images/a9.jpg" class="" alt="Ashlee Vance">
+                            <h2>Ashlee Vance</h2>
+                            <p>2 Published Books</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="author ">
+                            <img src="./assets/images/a10.jpg" class="" alt="Ashlee Vance" width="">
+                            <h2>Ashlee Vance</h2>
+                            <p>2 Published Books</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
     <!-- start footer -->
     <footer class="bg-dark mt-4">
         <div class="container py-4">
